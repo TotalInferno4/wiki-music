@@ -24,28 +24,18 @@ function App() {
       <BrowserRouter>
 
       <AppBar position="static">
-      <Toolbar className="NavBar">
-        <IconButton edge="start" color="inherit" aria-label="menu">
-          <MenuIcon />
-        </IconButton>
-        <Typography variant="h6">
-          Metallica
-        </Typography>
-      </Toolbar>
-    </AppBar> 
+        <Toolbar className="NavBar">
+          <IconButton edge="start" color="inherit" aria-label="menu">
+            <MenuIcon />
+          </IconButton>
+          <Typography variant="h6">
+            Metallica
+          </Typography>
+        </Toolbar>
+      </AppBar> 
 
-
-        
-
-        <Route exact path="/" component={ListeHobbies}></Route>
-        <Route path="/ui" component={TestMaterialUI}></Route>
-        <Route path="/photos/:id" component={Photos}></Route>
-        <Route path="/local/metallica" component={MetallicaInfos}></Route>
+        <Route exact path="/" component={MetallicaInfos}></Route>
         <Route path="/local/album/:id" component={AlbumInfos}></Route>
-        <Route
-          path="/username"
-          component={() => <Username name="Michel" age="54" />}
-        />
       </BrowserRouter>
     </div>
   );
