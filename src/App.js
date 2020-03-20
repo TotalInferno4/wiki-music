@@ -1,11 +1,7 @@
 import React from "react";
 import logo from "./logo.svg";
 import "./App.css";
-import Username from "./components/Username";
-import ListeHobbies from "./components/ListeHobbies";
-import Photos from "./components/Photos";
 import { BrowserRouter, Route, Link } from "react-router-dom";
-import TestMaterialUI from "./components/TestMaterialUI";
 import GroupeRock from "./components/GroupeRock";
 import MetallicaInfos from "./components/metallicaLocal/MetallicaInfos";
 import AlbumInfos from "./components/albumLocal/AlbumInfos";

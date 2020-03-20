@@ -50,7 +50,7 @@ const AlbumInfos = ({ match }) => {
 
 					<BadgeAlbum 
 						name={metallica.albums[id].title}
-						image={metallica.albums[id].cover.standard ? metallica.albums[id].cover.standard : "http://www.audioproceedings.com/CadmiumCD/custom/images/recordings/CD-icon.png"}
+						image={metallica.albums[id].cover ? metallica.albums[id].cover.standard : "http://www.audioproceedings.com/CadmiumCD/custom/images/recordings/CD-icon.png"}
 						artist={metallica.name}
 						year={metallica.albums[id].publicationDate}
 					/>
