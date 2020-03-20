@@ -1,0 +1,14 @@
+.badgeGroup {
+    display: flex;
+}
+.badgeGroup-details{
+    display: flex;
+    flex-direction: column;
+}
+.badgeGroup-content{
+    flex: 1 0 auto;
+    height: 200px;
+}
+.badgeGroup-cover{
+    width: 200px;
+}

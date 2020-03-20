@@ -1,0 +1,14 @@
+.badgeAlbum {
+    display: flex;
+}
+.badgeAlbum-details{
+    display: flex;
+    flex-direction: column;
+}
+.badgeAlbum-content{
+    flex: 1 0 auto;
+    height: 200px;
+}
+.badgeAlbum-cover{
+    width: 200px;
+}
